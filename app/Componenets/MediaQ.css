@@ -1,0 +1,162 @@
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+    #ppp {
+        font-size: 117px;
+        line-height: 0.9;
+    }
+}
+
+#anim {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
+
+}
+
+ @-webkit-keyframes anim {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+
+
+
+
+  #anim2 {
+    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    
+
+}
+
+ @-webkit-keyframes anim2 {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+
+
+
+  
+
+
+#mains {
+    margin-top: 20px;
+    
+        -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+                animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    }
+
+
+#logo {
+    border-radius: 19px;
+}
+
+
+@media only screen and (max-width: 510px) {
+    #kln {
+        
+        font-size: large;
+        
+       
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #mains2 {
+        margin-top: 90px;
+        display: flex;
+        width: 90%;
+     
+     height: 500px;
+    }
+}
+
+
+
+
+.headers {
+    background-color: black;
+    color: white;
+
+    display: flex;
+    height: 900px;
+    flex-direction: column;
+    width: 100%;
+    flex-flow: column;
+    
+   
+}
+
+.item1 {
+    height: 290px;
+    
+    
+    
+   
+flex-wrap: wrap;
+
+}
+
+.item2 {
+    height: 400px;
+
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+
+}
+
+.item3 {
+    display: flex;
+    height: 900px;
+    
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 10%;
+  
+  }
