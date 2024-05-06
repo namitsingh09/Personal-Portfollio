@@ -28,6 +28,9 @@ export default function Nav() {
           
           <li><Link href="/Thoughts" class="text-white hover:text-gray-200 hover:underline text-lg">Thoughts</Link></li>
           <li><Link href="/Thoughts" class="text-white hover:text-gray-200 hover:underline text-lg">Archive</Link></li>
+
+        
+
         </ul>
       </div>
       

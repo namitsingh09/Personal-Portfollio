@@ -6,6 +6,8 @@ import Kss from "../About/Img.jpg"
 import Image from 'next/image'
 import Notification from './Notification'
 
+import ReadMoreLess from '../Componenets/Readmore'
+
 
 
 
@@ -17,7 +19,7 @@ export default function page() {
 
     
 
-    <Notification />
+    <Notification  />
     
   
 
@@ -38,7 +40,7 @@ export default function page() {
   
       <div className="flex flex-col lg:flex-row">
         <div className="max-w-xl pr-16 mx-auto mb-10">
-        <div class="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100" style={{marginLeft:'20px'}}>
+        <div class="flex flex-col justify-center max-w-xs p-6 shadow-md rounded-xl sm:px-12 dark:bg-gray-900 dark:text-gray-100" style={{marginLeft:'20px', backgroundColor:"#111827"}}>
 	<Image src={Kss} alt="" class="w-32 h-32 mx-auto rounded-full dark:bg-gray-500 aspect-square" />
 	<div class="space-y-4 text-center divide-y divide-gray-700">
     
@@ -75,19 +77,28 @@ export default function page() {
           <div className="max-w-full">
            
            
-            <p className="text-large text-gray-600" style={{fontSize:'22px'}}>
-            Hello there! I'm NamitSingh, a passionate web developer with two years of experience in the ever-evolving world of web technologies. Currently, I'm on an exciting journey of continuous learning and exploration, constantly honing my skills and pushing the boundaries of what's possible in web development.
-
-My toolbox includes HTML, CSS, and a deep understanding of modern JavaScript frameworks like React and Next.js. I thrive on the challenges of crafting elegant and efficient solutions, whether it's building responsive layouts, optimizing performance, or integrating RESTful APIs to create dynamic web experiences.
-
-With a keen eye for detail and a love for clean, maintainable code, I strive to deliver exceptional user experiences that not only meet but exceed expectations. Let's collaborate and bring your ideas to life on the web!
-            </p>
+            <ReadMoreLess />
           </div>
         </div>
       </div>
     </div>
+	<h2 class="text-base font-semibold leading-12 text-blue-100 bg-blue-900 px-1 rounded-lg uppercase mb-4 lg:mb-20" style={{textAlign:'center', fontSize:'80px', padding:'10', fontFamily:'teko'}}>
+        TECH STACK</h2>
 
-    <section className="py-1 dark:bg-gray-800 dark:text-gray-50">
+
+
+		<div class="grid grid-cols-3 md:grid-cols-4 gap-5 p-2  max-w-[600px] md:max-w-[1200px] place-items-center" style={{marginTop:20, marginBottom:60}} >
+		<img  class="hover:opacity-75" width="144" height="144" src="https://img.icons8.com/color/144/html-5--v1.png" alt="html-5--v1"/>
+		<img  class="hover:opacity-75" width="144" height="144" src="https://img.icons8.com/clouds/144/react.png" alt="react"/>
+		<img  class="hover:opacity-75" width="144" height="144" src="https://img.icons8.com/color/144/nextjs.png" alt="nextjs"/>
+		<img class="hover:opacity-75" width="144" height="144" src="https://img.icons8.com/color/144/nodejs.png" alt="nodejs"/>
+		<img class="hover:opacity-75" width="144" height="144" src="https://img.icons8.com/nolan/128/tailwind_css.png" alt="tailwind_css"/>
+		<img  class="hover:opacity-75" width="144" height="144" src="https://img.icons8.com/color/144/bootstrap--v2.png" alt="bootstrap--v2"/>
+</div>
+
+
+
+    <section className="py-1 dark:bg-gray-800 dark:text-gray-50" style={{backgroundColor:'#1F2937'}}>
 	<div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
 		<div className="py-6 md:py-0 md:px-6">
 			<h1 className="text-4xl font-bold">Get in touch</h1>
@@ -97,7 +108,7 @@ With a keen eye for detail and a love for clean, maintainable code, I strive to 
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
 						<path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
 					</svg>
-					<span>ABUROAD, Rajasthan</span>
+					<span>MountAbu, Rajasthan</span>
 				</p>
 				
 				<p className="flex items-center">
@@ -126,6 +137,7 @@ With a keen eye for detail and a love for clean, maintainable code, I strive to 
 		</form>
 	</div>
 </section>
+
 
 
 
