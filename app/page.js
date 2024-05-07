@@ -1,4 +1,4 @@
-import Name from "./Componenets/Name";
+import Names from "./Componenets/Name";
 import Link from "next/link";
 import "./globals.css"
 
@@ -13,7 +13,8 @@ export default function Home() {
     <main style={{backgroundColor:'black', color:'white'}} >
      
       
-<Name />
+
+<Names />
 <Socio/>
 
 

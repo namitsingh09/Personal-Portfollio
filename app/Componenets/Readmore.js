@@ -16,7 +16,7 @@ function ReadMoreLess() {
       <p className="text-large text-gray-600" style={{fontSize:'22px'}}>
             Hello there! I'm NamitSingh, a passionate web developer with two years of experience in the ever-evolving world of web technologies. Currently, I'm on an exciting journey of continuous learning and exploration, constantly honing my skills and pushing the boundaries of what's possible in web development.
 
-My toolbox includes HTML, CSS, 
+My toolbox includes HTML, CSS 
             </p>
       {isShowMore && (
         <p className="text-large text-gray-600" style={{fontSize:'22px'}}>
@@ -27,7 +27,7 @@ With a keen eye for detail and a love for clean, maintainable code, I strive to 
       )}
 
       <button onClick={toggleReadMoreLess}>
-        {isShowMore ? "⬆️" : "⬇️  ViewMore"}
+        {isShowMore ? "⬆️" : " View⬇️More"}
       </button>
     </div>
   );

@@ -4,6 +4,7 @@ import Insta from './insta.png';
 import Link from './eqw.gif';
 import Image from 'next/image';
 import "./g.css"
+import Names from './Name';
 
 export default function Socio() {
   return (

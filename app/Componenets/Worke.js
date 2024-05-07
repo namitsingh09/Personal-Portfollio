@@ -26,7 +26,7 @@ export default function Worke() {
 
 
     <div className='item2'>
-<p  style={{fontSize:'20px', padding:'10px', width:'100%', textAlign:'center', marginTop:'30px' ,  height:'170px'}}>A collection of weird websites, niche data projects, and CSS experiments.  and lately I’ve been working on Personal Projects and Builiding in Public which are both pretty fun.</p>
+<p  id='vv' style={{fontSize:'20px', padding:'10px', width:'100%', textAlign:'center', marginTop:'30px' ,  height:'170px', fontFamily:'Rajdhani'}}>A collection of weird websites, niche data projects, and CSS experiments.  and lately I’ve been working on Personal Projects and Builiding in Public which are both pretty fun.</p>
 
 </div>
 

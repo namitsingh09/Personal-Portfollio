@@ -3,6 +3,7 @@
 
 
 
+
 @media only screen and (max-width: 1000px) {
     #ppp {
         font-size: 117px;
@@ -141,7 +142,17 @@ flex-wrap: wrap;
     justify-content: center;
     margin-left: 20px;
     
+    margin-bottom: 20px;
+    
+}
 
+@media only screen and (max-width: 380px) {
+  #vv {
+      
+      
+     
+     
+  }
 }
 
 .item3 {
