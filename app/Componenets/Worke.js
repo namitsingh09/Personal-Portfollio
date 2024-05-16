@@ -31,7 +31,7 @@ export default function Worke() {
 
 
     <div className='item2'>
-<p  id='vv' style={{fontSize:'20px', padding:'10px', width:'100%', textAlign:'center', marginTop:'30px' ,  height:'120px', fontFamily:'Rajdhani'}}>A collection of weird websites, niche data projects, and CSS experiments.  and lately I’ve been working on Personal Projects and Builiding in Public which are both pretty fun.</p>
+<p  id='vv' style={{fontSize:'20px', padding:'10px', width:'100%', textAlign:'center', marginTop:'30px' ,  height:'170px', fontFamily:'Rajdhani'}}>A collection of weird websites, niche data projects, and CSS experiments.  and lately I’ve been working on Personal Projects and Builiding in Public which are both pretty fun.</p>
 
 </div>
 
@@ -43,7 +43,7 @@ export default function Worke() {
 
 
 
-<div  class="bg-black dark:bg-black-800 h-screen  py-6 sm:py-8 lg:py-12">
+<div  id='xcx' class="bg-black dark:bg-black-800 h-screen  py-6 sm:py-8 lg:py-12">
      
 <div class="grid grid-cols-1 gap-3 sm:grid-cols-3 md:gap-3 xl:gap-3" style={{padding:'10px', margin:'20px'}}>
             
